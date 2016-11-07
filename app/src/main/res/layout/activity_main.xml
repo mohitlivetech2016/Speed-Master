@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".framework.view.activity.MainActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        <TextView
+            android:id="@+id/txtSearchingForGPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/searchingForGPS"
+            android:padding="@dimen/searching_gps_padding"
+            android:gravity="center"
+            android:textSize="@dimen/searching_gps_txtsize"
+            android:textColor="@color/gray_800"
+            android:background="@color/searching_gps_bg"
+            android:visibility="gone"/>
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_main">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gaugeViewHeight">455dp</dimen>
+    <dimen name="gaugeViewMarginTop">15dp</dimen>
+    <dimen name="radioLayoutMarginBottom">50dp</dimen>
+    <dimen name="kphMphPadingBottom">35dp</dimen>
+    <dimen name="radioLayoutMarginTop">0dp</dimen>
+    <dimen name="gaugeRelativeLayoutHeight">500dp</dimen>
+</resources>

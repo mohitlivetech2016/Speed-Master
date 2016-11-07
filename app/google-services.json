@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "780271067018",
+    "firebase_url": "https://admob-app-id-5625457865.firebaseio.com",
+    "project_id": "admob-app-id-5625457865",
+    "storage_bucket": "admob-app-id-5625457865.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780271067018:android:ae6752bc4117ceca",
+        "android_client_info": {
+          "package_name": "com.vvorld.speed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780271067018-13m9dfq6rlc8um4in00e0dag5j46ildv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqt25mv9lsREzKXf1Qxk2tD_cqat5pe_I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

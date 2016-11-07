@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gaugeViewHeight">260dp</dimen>
+    <dimen name="gaugeRelativeLayoutHeight">260dp</dimen>
+    <dimen name="gaugeViewMarginTop">15dp</dimen>
+    <dimen name="kphMphPadingBottom">35dp</dimen>
+    <dimen name="radioLayoutMarginTop">0dp</dimen>
+    <dimen name="radioKphMphTextSize">14sp</dimen>
+    <dimen name="btnShowSpeedTextSize">16sp</dimen>
+    <dimen name="radioButtonHeight">30dp</dimen>
+    <dimen name="txtkphMphSize">26sp</dimen>
+    <dimen name="btn_show_altitude_margin_bottom">60dp</dimen>
+    <dimen name="planeImageWidth">160dp</dimen>
+    <dimen name="planeImageHeight">140dp</dimen>
+    <dimen name="kphMphLinPadingBottom">10dp</dimen>
+</resources>

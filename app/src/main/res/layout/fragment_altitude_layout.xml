@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/speed_bg">
+    <ImageView
+        android:id="@+id/imgFlightImage"
+        android:layout_width="@dimen/planeImageWidth"
+        android:layout_height="@dimen/planeImageHeight"
+        android:src="@drawable/plane"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+       />
+    <com.vvorld.speed.framework.helper.view.SpeedSplashTextView
+        android:id="@+id/txtAltitudeValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/zeroMeter"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+    <com.vvorld.speed.framework.helper.view.SpeedSplashTextView
+        android:id="@+id/txtAbove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_below="@id/txtAltitudeValue"
+        android:text="@string/aboveSeaLevel"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btnAnimate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_altitude"
+        style="@style/speedButtonStyle"
+        android:layout_alignParentBottom="true"   />
+
+</RelativeLayout>

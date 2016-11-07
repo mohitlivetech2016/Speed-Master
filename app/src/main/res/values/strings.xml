@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Flight Speed</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_us">Contact us</string>
+    <string name="app_information">App information</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate us</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="mps">Mps</string>
+    <string name="kph">Kph</string>
+    <string name="show_speed">SHOW SPEED</string>
+    <string name="show_altitude">SHOW ALTITUDE</string>
+    <string name="stop_updates">STOP UPDATES</string>
+    <string name="aboveText">Above sea level</string>
+
+    <string name="contact_email_header">I have some suggestions</string>
+    <string name="contact_email_content">Hello flight speed,\n</string>
+    <string name="email_chooser_title">Select to send regards</string>
+    <string name="admob_app_id">ca-app-pub-5151801226578793~5625457865</string>
+
+    <string name="share_content">Know the altitude &amp; speed of plane you are flying in. Try this awesome app\n</string>
+    <string name="options">Options</string>
+    <string name="gpsPermissionDenied">Without permission to access GPS application will not work. Are you sure you want to deny this permission?</string>
+    <string name="gpsTurnOnDenied">Without GPS application will not work. Are you sure you do not want to turn on GPS?</string>
+    <string name="yes">Yes</string>
+    <string name="continue_dialog">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="no">No</string>
+    <string name="retry">RE-TRY</string>
+    <string name="amSure">I\'M SURE</string>
+    <string name="permissionDenied">Permission Denied</string>
+    <string name="useLocation">Use location?</string>
+    <string name="zeroMeter">0 meter</string>
+    <string name="aboveSeaLevel">Above Sea Level</string>
+    <string name="searchingForGPS">Please wait&#8230;Searching for GPS.</string>
+    <string name="meters">meters</string>
+    <string name="altitudeNotAvailable">Please wait. \nAltitude\nnot available \nat this moment.</string>
+    <string name="takingLonger">It\'s taking longer than expected.</string>
+    <string name="by">By</string>
+
+    <string name="gps_permission_rationale">We need GPS coordinates to aptly find the speed of flight and to provide you a seamless experience.\nContinue to grant location permission."</string>
+    <string name="never_ask_again_denied">You have denied location permission of app. Please enable it to make app work.</string>
+    <string name="goto_settings">Go to settings</string>
+    <string name="rate_app">Rate flight speed</string>
+    <string name="rate_app_content">If you enjoy using the app, would you mind taking a moment to rate it? Thank you for your support.</string>
+    <string name="rate_now">Rate now</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="remind_later">Later</string>
+
+    <string name="tips">Some Tips</string>
+    <string name="flight_mode_tip">Application works in <i>Flight/Airplane mode</i> as well.</string>
+    <string name="location_tip">Please keep GPS on while using application.</string>
+    <string name="got_it">OK, GOT IT</string>
+
+    <string name="share_flight_speed_app">Share flight speed</string>
+</resources>
+
